@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.italics {
+    font-style: italic;
+}
+main {
+    display: block;
+    padding: 20px 20px 0 20px;
+}
+body {
+    background-color: #E5F3F6;
+}
+footer {
+    clear: both;
+    background-color: #98177a;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    font-style: italic;
+}
+#tegan {
+    font-size: 5em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#poem {
+    background-color: #Ffffff;
+    text-align: left;
+    padding: 20px;
+}
+nav {
+    background-color: #98177a;
+    color: #Ffffff;
+    display: flex;
+    flex-wrap: nowrap;
+}
+nav li {
+    display: inline-block;
+    width: 7em;
+    padding: 0.5em;
+    border: none;
+}
+#left {
+    float: left;
+}
+#right {
+    float: right;
+}
+#about {
+    float: right;
+}
+nav ul {
+    text-align: right;
+    list-style-type: none;
+    padding-left: 50%;
+    margin-right: 20px;
+}
+nav h1 {
+    text-align: left;
+    margin-left: 40px;
+}
+nav a {
+    text-decoration: none;
+    color: #F7EFFA;
+}
+#form {
+    background-color: #Ffffff;
+    width: 60%;
+    padding: 2em;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+label {
+    display: block;
+    margin-top: 20px;
+}
+input {
+    display: block;
+    margin-bottom: 20px;
+}
